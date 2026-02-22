@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Hasnain | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <div class="cursor-follower"></div>
+    <nav>
+        <div class="logo">MH<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="reveal">Hello, I'm</h2>
+            <h1 class="reveal-delay">Muhammad Hasnain</h1>
+            <p class="reveal-delay-2">Full Stack Developer | AI Enthusiast | Creative Designer</p>
+            <div class="cta-buttons reveal-delay-3">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Hire Me</a>
+            </div>
+        </div>
+        <div class="hero-image reveal">
+            <div class="image-wrapper">
+                <img src="hasnain.jpg.jpeg" alt="Muhammad Hasnain" class="main-photo">
+                <div class="blob"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="section-title reveal">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-text reveal">
+                <p>I am a passionate developer dedicated to transforming complex problems into simple and beautiful
+                    designs. My goal is to create technology that makes people's lives easier. Beyond web development, I
+                    am also a Crypto Trader, and I am eager to work with innovative technology companies where I can
+                    further polish my skills and grow professionally.</p>
+                <div class="skills">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Web Design</span>
+                    <span class="skill-tag">AI Integration</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Neural AI Assistant Section -->
+    <section id="ai-assistant" class="ai-neural-section">
+        <div class="section-title reveal">
+            <h2>Neural Assistant</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="neural-container reveal">
+            <div class="neural-card">
+                <div class="neural-visual">
+                    <div class="orb"></div>
+                    <div class="magnetic-field"></div>
+                    <div class="magnetic-field"></div>
+                </div>
+                <div class="neural-chat">
+                    <div class="neural-header">
+                        <div class="status-indicator">
+                            <span class="pulse-dot"></span>
+                            Muhammad Hasnain online
+                        </div>
+                    </div>
+                    <div class="chat-body" id="chat-body">
+                        <div class="message bot-message">
+                            I am the digital consciousness of Muhammad Hasnain. Accessing his
+                            database... How may I serve you?
+                        </div>
+                    </div>
+                    <div class="chat-footer">
+                        <input type="text" id="chat-input" placeholder="Initiate query (e.g. How is Hasnain?)...">
+                        <button id="send-chat">
+                            <div class="btn-glow"></div>
+                            <span>SEND</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="section-title reveal">
+            <h2>My Projects</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="project-grid">
+            <div class="project-card reveal">
+                <div class="project-img ai-img"></div>
+                <div class="project-info">
+                    <h3>AI Chatbot</h3>
+                    <p>A premium responsive chatbot with Hindi/Urdu support.</p>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-img shop-img"></div>
+                <div class="project-info">
+                    <h3>E-Commerce Platform</h3>
+                    <p>Modern shopping experience with seamless design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="section-title reveal">
+            <h2>Get In Touch</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-container reveal">
+            <form onsubmit="return false">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5"></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Muhammad Hasnain. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
